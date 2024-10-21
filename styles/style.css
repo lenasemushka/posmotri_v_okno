@@ -18,6 +18,7 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
+  block-size: 100%;
 }
 
 h1,
@@ -49,6 +50,10 @@ ol {
   white-space: nowrap;
 }
 
+.page {
+  height: 100vh;
+}
+
 .content {
   display: flex;
   flex-direction: row;
@@ -56,9 +61,7 @@ ol {
   align-items: flex-end;
   gap: 30px;
   max-width: 1140px;
-  height: 100%;
   margin: 0 auto;
-  padding: 133px 30px;
 }
 
 .result {
