@@ -99,6 +99,9 @@ fieldset {
 
 .search-form__fieldset-title {
   margin-bottom: 5px;
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 .search-form__label {
@@ -180,8 +183,10 @@ fieldset {
 
 .button {
   border: 1px solid currentColor;
+  color: inherit;
   font-family: 'Fira Sans Condensed', Calibri, sans-serif;
   font-weight: 700;
+  font-size: inherit;
   text-align: center;
   background-color: #1b1919;
   cursor: pointer;
@@ -237,10 +242,13 @@ fieldset {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 30px;
   height: 298px;
   overflow-y: auto;
 }
+
+.content__list-item:not(:last-of-type) {
+  margin-bottom: 30px;
+} 
 
 .content__card-link {
   display: block;
